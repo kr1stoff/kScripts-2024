@@ -1,0 +1,7 @@
+#软件
+samtools: /home/mengxf/mambaforge/envs/bio/bin/samtools
+prokka: /home/lanlei/miniconda3/envs/prokka/bin/prokka
+
+#参数
+parallels: 8
+threads: 12

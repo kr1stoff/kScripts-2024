@@ -1,0 +1,39 @@
+#thread
+threads: 64 
+
+# 样式
+p_GDHR: /sdbb/share/lib/GDHR
+
+#引用脚本
+p_tree: /sdbb/share/pipeline/TracePathogen
+p_typing: /sdbb/share/pipeline/TypeTracePlugin
+
+#conda_env
+b_base: /home/earthtest/miniconda3/envs/base_env/bin
+b_denovo: /home/earthtest/miniconda3/envs/denovo/bin
+
+ACTIVATE: /home/earthtest/miniconda3/bin/activate
+convert: /home/earthtest/miniconda3/envs/base_env/bin/convert
+
+#数据库
+p_db: /sdbb/share/database
+db_busco: /sdbb/share/database/busco/lineages
+db_eggnog: /sdbb/share/database/eggNOG
+db_VFDB: /sdbb/share/database/VFDB
+db_checkv: /sdbb/share/database/checkv/checkv-db-v1.1
+
+#生信软件
+kraken2: /home/earthtest/miniconda3/envs/nano/bin/kraken2
+picard: /home/earthtest/miniconda3/envs/microbial_wgs/share/picard-2.26.6-0/picard
+
+#编程软件
+perl: /home/earthtest/miniconda3/envs/base_env/bin/perl
+python3: /home/earthtest/miniconda3/envs/base_env/bin/python3
+
+#并行数
+jobs: 2
+
+#过滤contig阈值
+mincov: 0
+minlen: 500
+

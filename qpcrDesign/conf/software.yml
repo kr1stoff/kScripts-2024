@@ -1,0 +1,5 @@
+python: /sdbb/bioinfor/renchaobo/Software/miniconda3/bin/python
+seqkit: /sdbb/bioinfor/renchaobo/Software/SeqKit/SeqKit-0.12.0/seqkit
+primer3: /sdbb/bioinfor/renchaobo/Software/Primer3/primer3-v2.6.1/src/primer3_core
+bedtools: /usr/bin/bedtools
+parallel: /usr/bin/parallel
